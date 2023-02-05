@@ -19,8 +19,14 @@
 }
 
 .metadata {
-  margin-left: 16px;
+  margin-bottom: 8px;
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+@media (max-width: 1024px) {
+  .controlPane {
+    width: 50%;
+  }
 }

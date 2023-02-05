@@ -17,9 +17,9 @@ const ControlPane = ({
       <h2 className={styles.title}>
         {title}
 
-        <span className={styles.metadata}>
+        <div className={styles.metadata}>
           {options.length} options
-        </span>
+        </div>
       </h2>
       <ButtonRow>
         {options.map(({ id, label, color, children }) => (
